@@ -24,9 +24,9 @@ package base
 import (
 	// The following imports just register themselves --
 	// thse are the terminal types we aggregate in this package.
-	_ "github.com/kckrinke/go-cdk/terminfo/a/ansi"
-	_ "github.com/kckrinke/go-cdk/terminfo/v/vt100"
-	_ "github.com/kckrinke/go-cdk/terminfo/v/vt102"
-	_ "github.com/kckrinke/go-cdk/terminfo/v/vt220"
-	_ "github.com/kckrinke/go-cdk/terminfo/x/xterm"
+	_ "github.com/kckrinke/go-terminfo/a/ansi"
+	_ "github.com/kckrinke/go-terminfo/v/vt100"
+	_ "github.com/kckrinke/go-terminfo/v/vt102"
+	_ "github.com/kckrinke/go-terminfo/v/vt220"
+	_ "github.com/kckrinke/go-terminfo/x/xterm"
 )

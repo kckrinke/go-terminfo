@@ -29,7 +29,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kckrinke/go-cdk/terminfo"
+	"github.com/kckrinke/go-terminfo"
 )
 
 type termcap struct {

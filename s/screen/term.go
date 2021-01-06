@@ -2,7 +2,7 @@
 
 package screen
 
-import "github.com/kckrinke/go-cdk/terminfo"
+import "github.com/kckrinke/go-terminfo"
 
 func init() {
 
